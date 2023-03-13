@@ -13,8 +13,13 @@ async function initFeatureManagement() {
 	console.log('Done setup');
 	console.log('flags.enableTutorial.isEnabled()=', flags.enableTutorial.isEnabled());
 	console.log('flags.titleColors.getValue()=', flags.titleColors.getValue());
+
+	document.write('<p>')
+	document.write('flags.enableTutorial.isEnabled()=', flags.enableTutorial.isEnabled());
+	document.write('</p>')
+	document.write('<p>')
+	document.write('flags.titleColors.getValue()=', flags.titleColors.getValue());
+	document.write('</p>')
 }
 
-console.log('Starting app!!!');
 initFeatureManagement();
-console.log('Finished app!!!');
