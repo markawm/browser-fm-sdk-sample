@@ -1,0 +1,17 @@
+{
+  "name": "browser-fm-sdk-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify index.js -o bundled.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^17.0.0"
+  },
+  "dependencies": {
+    "rox-browser": "^5.4.2"
+  }
+}
