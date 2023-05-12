@@ -1,9 +1,6 @@
 const Rox = require('rox-browser');
 
 const flags = {
-  // enableTutorial: new Rox.Flag(),
-  // titleColors: new Rox.RoxString('White', ['White', 'Blue', 'Green', 'Yellow']),
-  // titleSize: new Rox.RoxNumber(12, [12, 14, 18, 24])
 	defaultTest: new Rox.RoxString('from-code', ['value-1', 'value-2', 'value-3'])
 };
 
@@ -33,16 +30,6 @@ async function initFeatureManagement() {
 	document.write('<p>');
 	document.write('Default test: ', flags.defaultTest.getValue());
 	document.write('</p>');
-
-	// console.log('flags.enableTutorial.isEnabled()=', flags.enableTutorial.isEnabled());
-	// console.log('flags.titleColors.getValue()=', flags.titleColors.getValue());
-
-	// document.write('<p>')
-	// document.write('flags.enableTutorial.isEnabled()=', flags.enableTutorial.isEnabled());
-	// document.write('</p>')
-	// document.write('<p>')
-	// document.write('flags.titleColors.getValue()=', flags.titleColors.getValue());
-	// document.write('</p>')
 }
 
 initFeatureManagement();
